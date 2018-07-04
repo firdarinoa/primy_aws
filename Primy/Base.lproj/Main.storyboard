@@ -71,15 +71,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KJQ-x8-Bln">
-                                <rect key="frame" x="67" y="149" width="240" height="468"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KJQ-x8-Bln">
+                                <rect key="frame" x="-16" y="44" width="407" height="685"/>
                                 <color key="backgroundColor" red="0.13705014090000001" green="0.64479784029999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="KJQ-x8-Bln" firstAttribute="centerY" secondItem="O1u-W8-tvY" secondAttribute="centerY" id="8OO-bq-joM"/>
-                            <constraint firstItem="KJQ-x8-Bln" firstAttribute="centerX" secondItem="O1u-W8-tvY" secondAttribute="centerX" id="yLV-gb-yjI"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="bottom" secondItem="KJQ-x8-Bln" secondAttribute="bottom" id="5ww-v3-RUe"/>
+                            <constraint firstItem="KJQ-x8-Bln" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="OX0-Jq-TU6"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="KJQ-x8-Bln" secondAttribute="trailing" constant="-16" id="VhG-Ld-d2H"/>
+                            <constraint firstItem="KJQ-x8-Bln" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="-16" id="VkQ-aJ-jrU"/>
+                            <constraint firstItem="KJQ-x8-Bln" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" id="mzI-Sf-xJN"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>

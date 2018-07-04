@@ -35,7 +35,7 @@ class SecondViewController: UIViewController {
         }
         
         //Buka kamera
-        let camera = getDevice(position: .back)
+        let camera = getDevice(position: .front)
         do {
             input = try AVCaptureDeviceInput(device: camera!)
         } catch let error as NSError {
