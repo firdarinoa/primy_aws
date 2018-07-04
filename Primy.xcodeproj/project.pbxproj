@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BF1AF12DDBA10A100775538 /* Pods_PrimyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FC17217817F800D3CA68C5 /* Pods_PrimyUITests.framework */; };
+		744BF46B18A1A4AA58D2DA0E /* Pods_Primy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77161239D14AE1EABA485FFC /* Pods_Primy.framework */; };
 		87CCD54A20ED182B00B88E59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CCD54920ED182B00B88E59 /* AppDelegate.swift */; };
 		87CCD54C20ED182B00B88E59 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CCD54B20ED182B00B88E59 /* FirstViewController.swift */; };
 		87CCD54E20ED182B00B88E59 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CCD54D20ED182B00B88E59 /* SecondViewController.swift */; };
@@ -15,6 +17,7 @@
 		87CCD55620ED183600B88E59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87CCD55420ED183600B88E59 /* LaunchScreen.storyboard */; };
 		87CCD56120ED183700B88E59 /* PrimyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CCD56020ED183700B88E59 /* PrimyTests.swift */; };
 		87CCD56C20ED183700B88E59 /* PrimyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CCD56B20ED183700B88E59 /* PrimyUITests.swift */; };
+		F92769ED5C369631DD850228 /* Pods_PrimyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D160EBB1615719EABEA20982 /* Pods_PrimyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32FC17217817F800D3CA68C5 /* Pods_PrimyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrimyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E1273B6F33E8E6A5EFD79B5 /* Pods-PrimyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrimyUITests/Pods-PrimyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		77161239D14AE1EABA485FFC /* Pods_Primy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Primy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8565E51752C611DB9942726F /* Pods-Primy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Primy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Primy/Pods-Primy.release.xcconfig"; sourceTree = "<group>"; };
 		87CCD54620ED182B00B88E59 /* Primy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Primy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87CCD54920ED182B00B88E59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87CCD54B20ED182B00B88E59 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		87CCD56720ED183700B88E59 /* PrimyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87CCD56B20ED183700B88E59 /* PrimyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimyUITests.swift; sourceTree = "<group>"; };
 		87CCD56D20ED183700B88E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923483D080BB85CD505BFDCF /* Pods-PrimyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrimyUITests/Pods-PrimyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A4DDB435DBE7A6246AD40A27 /* Pods-PrimyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrimyTests/Pods-PrimyTests.release.xcconfig"; sourceTree = "<group>"; };
+		CAFC67B7CE2C3A760D8AF42B /* Pods-Primy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Primy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Primy/Pods-Primy.debug.xcconfig"; sourceTree = "<group>"; };
+		D160EBB1615719EABEA20982 /* Pods_PrimyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrimyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D1FE6ABF9AA992FEBBB2E1 /* Pods-PrimyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrimyTests/Pods-PrimyTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				744BF46B18A1A4AA58D2DA0E /* Pods_Primy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F92769ED5C369631DD850228 /* Pods_PrimyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BF1AF12DDBA10A100775538 /* Pods_PrimyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83362330DF75DF38188D8D82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77161239D14AE1EABA485FFC /* Pods_Primy.framework */,
+				D160EBB1615719EABEA20982 /* Pods_PrimyTests.framework */,
+				32FC17217817F800D3CA68C5 /* Pods_PrimyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		87CCD53D20ED182A00B88E59 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				87CCD55F20ED183700B88E59 /* PrimyTests */,
 				87CCD56A20ED183700B88E59 /* PrimyUITests */,
 				87CCD54720ED182B00B88E59 /* Products */,
+				B26DA330EC76F75DDF81FCC3 /* Pods */,
+				83362330DF75DF38188D8D82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +155,19 @@
 			path = PrimyUITests;
 			sourceTree = "<group>";
 		};
+		B26DA330EC76F75DDF81FCC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAFC67B7CE2C3A760D8AF42B /* Pods-Primy.debug.xcconfig */,
+				8565E51752C611DB9942726F /* Pods-Primy.release.xcconfig */,
+				F1D1FE6ABF9AA992FEBBB2E1 /* Pods-PrimyTests.debug.xcconfig */,
+				A4DDB435DBE7A6246AD40A27 /* Pods-PrimyTests.release.xcconfig */,
+				4E1273B6F33E8E6A5EFD79B5 /* Pods-PrimyUITests.debug.xcconfig */,
+				923483D080BB85CD505BFDCF /* Pods-PrimyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87CCD57020ED183700B88E59 /* Build configuration list for PBXNativeTarget "Primy" */;
 			buildPhases = (
+				55943B4A418D2717E89172BD /* [CP] Check Pods Manifest.lock */,
 				87CCD54220ED182B00B88E59 /* Sources */,
 				87CCD54320ED182B00B88E59 /* Frameworks */,
 				87CCD54420ED182B00B88E59 /* Resources */,
+				AD39A70B7607820B01DD350F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87CCD57320ED183700B88E59 /* Build configuration list for PBXNativeTarget "PrimyTests" */;
 			buildPhases = (
+				B2725E3758DC344212157BDE /* [CP] Check Pods Manifest.lock */,
 				87CCD55820ED183700B88E59 /* Sources */,
 				87CCD55920ED183700B88E59 /* Frameworks */,
 				87CCD55A20ED183700B88E59 /* Resources */,
+				7FE2EFC81D42B3B3D5644AC5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87CCD57620ED183700B88E59 /* Build configuration list for PBXNativeTarget "PrimyUITests" */;
 			buildPhases = (
+				AB469351944555CC99002A76 /* [CP] Check Pods Manifest.lock */,
 				87CCD56320ED183700B88E59 /* Sources */,
 				87CCD56420ED183700B88E59 /* Frameworks */,
 				87CCD56520ED183700B88E59 /* Resources */,
+				A79BF8713E427A5B97B35AEE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +299,117 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55943B4A418D2717E89172BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Primy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FE2EFC81D42B3B3D5644AC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PrimyTests/Pods-PrimyTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JPSImagePickerController/JPSImagePickerController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JPSImagePickerController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrimyTests/Pods-PrimyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A79BF8713E427A5B97B35AEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PrimyUITests/Pods-PrimyUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JPSImagePickerController/JPSImagePickerController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JPSImagePickerController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrimyUITests/Pods-PrimyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB469351944555CC99002A76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrimyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD39A70B7607820B01DD350F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Primy/Pods-Primy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JPSImagePickerController/JPSImagePickerController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JPSImagePickerController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Primy/Pods-Primy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2725E3758DC344212157BDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrimyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		87CCD54220ED182B00B88E59 /* Sources */ = {
@@ -432,6 +589,7 @@
 		};
 		87CCD57120ED183700B88E59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAFC67B7CE2C3A760D8AF42B /* Pods-Primy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +607,7 @@
 		};
 		87CCD57220ED183700B88E59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8565E51752C611DB9942726F /* Pods-Primy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +625,7 @@
 		};
 		87CCD57420ED183700B88E59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1D1FE6ABF9AA992FEBBB2E1 /* Pods-PrimyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +646,7 @@
 		};
 		87CCD57520ED183700B88E59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4DDB435DBE7A6246AD40A27 /* Pods-PrimyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +667,7 @@
 		};
 		87CCD57720ED183700B88E59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E1273B6F33E8E6A5EFD79B5 /* Pods-PrimyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +687,7 @@
 		};
 		87CCD57820ED183700B88E59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 923483D080BB85CD505BFDCF /* Pods-PrimyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

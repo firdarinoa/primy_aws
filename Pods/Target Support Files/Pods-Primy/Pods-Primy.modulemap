@@ -1,0 +1,6 @@
+framework module Pods_Primy {
+  umbrella header "Pods-Primy-umbrella.h"
+
+  export *
+  module * { export * }
+}
